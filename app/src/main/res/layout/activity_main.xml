@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_paper">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="373dp"
+        android:layout_height="684dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/btnLayer"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="210dp"
+            android:weightSum="2">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/timer_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/timer_button" />
+
+                <Button
+                    android:id="@+id/state_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/state_btn" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/qrcode_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/qrcode_btn" />
+
+                <Button
+                    android:id="@+id/setting_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/setting_btn" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/titleImg"
+        android:layout_width="0dp"
+        android:layout_height="264dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/main_title" />
+
+    <ImageView
+        android:id="@+id/bubble1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/titleImg"
+        app:layout_constraintEnd_toEndOf="@+id/titleImg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/titleImg"
+        app:layout_constraintTop_toTopOf="@+id/titleImg"
+        app:layout_constraintVertical_bias="0.53"
+        app:srcCompat="@drawable/bubble_1" />
+
+    <ImageView
+        android:id="@+id/bubble2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/titleImg"
+        app:layout_constraintEnd_toEndOf="@+id/titleImg"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="@+id/titleImg"
+        app:layout_constraintTop_toTopOf="@+id/titleImg"
+        app:layout_constraintVertical_bias="0.31"
+        app:srcCompat="@drawable/bubble_2" />
+
+    <ImageView
+        android:id="@+id/bubble3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/titleImg"
+        app:layout_constraintEnd_toEndOf="@+id/titleImg"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="@+id/titleImg"
+        app:layout_constraintTop_toTopOf="@+id/titleImg"
+        app:layout_constraintVertical_bias="0.36"
+        app:srcCompat="@drawable/bubble_1" />
+
+    <ImageView
+        android:id="@+id/bubble4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/titleImg"
+        app:layout_constraintEnd_toEndOf="@+id/titleImg"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/titleImg"
+        app:layout_constraintTop_toTopOf="@+id/titleImg"
+        app:layout_constraintVertical_bias="0.07999998"
+        app:srcCompat="@drawable/bubble_2" />
+
+    <ImageView
+        android:id="@+id/bubble5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/titleImg"
+        app:layout_constraintEnd_toEndOf="@+id/titleImg"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/titleImg"
+        app:layout_constraintTop_toTopOf="@+id/titleImg"
+        app:layout_constraintVertical_bias="0.120000005"
+        app:srcCompat="@drawable/bubble_2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

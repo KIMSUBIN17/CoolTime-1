@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "834325921371",
+    "firebase_url": "https://washertimer-95ad6.firebaseio.com",
+    "project_id": "washertimer-95ad6",
+    "storage_bucket": "washertimer-95ad6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834325921371:android:85bf10a84f889c696c497e",
+        "android_client_info": {
+          "package_name": "com.example.timerapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834325921371-2fd7ib8s5r66p2ivqqklvten66fpotc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timerapplication",
+            "certificate_hash": "d46fb21eb44054294aadda5201e3721d790f34c7"
+          }
+        },
+        {
+          "client_id": "834325921371-3teloht1vaorlsfhtsroe0ug3s2u4o7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timerapplication",
+            "certificate_hash": "e19f81b2932f66212193bb61c5c0fb09ec608e5d"
+          }
+        },
+        {
+          "client_id": "834325921371-h9tslr1o8c7augunlmppilv50majj1as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaH5dmnCyr1oMWiHbGsjLpFuuyHOK54CQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834325921371-h9tslr1o8c7augunlmppilv50majj1as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834325921371:android:a4cc7417f947057d6c497e",
+        "android_client_info": {
+          "package_name": "com.example.user.washer_timer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834325921371-e3a71heh9odc4q734icfuhm33ahp2cu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.washer_timer",
+            "certificate_hash": "e19f81b2932f66212193bb61c5c0fb09ec608e5d"
+          }
+        },
+        {
+          "client_id": "834325921371-h9tslr1o8c7augunlmppilv50majj1as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaH5dmnCyr1oMWiHbGsjLpFuuyHOK54CQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834325921371-h9tslr1o8c7augunlmppilv50majj1as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.timerapplication">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/application_logo"
+        android:label="쿨타임;스마트알람"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@anim/rotate" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReservationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SettingsActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" />
+        <activity android:name=".ListActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TimerActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".TimerCountManager"
+            android:launchMode="singleTask"/>
+    </application>
+
+</manifest>
+

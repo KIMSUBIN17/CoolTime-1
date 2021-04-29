@@ -1,0 +1,21 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.natasa.progressviews"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\khyun\androidstudioproject\CoolTime_20200122\progressviewslib\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\khyun\androidstudioproject\CoolTime_20200122\progressviewslib\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\khyun\androidstudioproject\CoolTime_20200122\progressviewslib\src\main\AndroidManifest.xml:9:5-14:19
+12        android:allowBackup="true"
+12-->C:\Users\khyun\androidstudioproject\CoolTime_20200122\progressviewslib\src\main\AndroidManifest.xml:10:9-35
+13        android:label="@string/app_name" >
+13-->C:\Users\khyun\androidstudioproject\CoolTime_20200122\progressviewslib\src\main\AndroidManifest.xml:12:9-41
+14    </application>
+15
+16</manifest>

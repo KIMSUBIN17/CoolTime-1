@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="345dp"
+    android:layout_height="650dp"
+    android:layout_marginStart="33dp"
+    android:layout_marginTop="33dp"
+    android:layout_marginEnd="33dp"
+    android:layout_marginBottom="33dp"
+    android:background="@drawable/rounded"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/alarmEnableText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="130dp"
+            android:text="알람"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/emptyPlaceAlarmText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="61dp"
+            android:text="남은자리 알람"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/alarmEnableSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="139dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/view1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/alarmEnableText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Switch
+            android:id="@+id/emptyPlaceAlarmSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="#BDBDBD"
+            app:layout_constraintTop_toBottomOf="@+id/alarmEnableText"
+            tools:layout_editor_absoluteX="-30dp" />
+
+        <TextView
+            android:id="@+id/alarmSoundText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="232dp"
+            android:layout_marginBottom="20dp"
+            android:text="알람음"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/view2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alarmEnableText" />
+
+        <TextView
+            android:id="@+id/alarmSelectSoundText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="29dp"
+            android:text="나만빼고다사랑에빠져"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/view2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.68"
+            app:layout_constraintStart_toEndOf="@+id/alarmSoundText"
+            app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="#BDBDBD"
+            app:layout_constraintTop_toBottomOf="@+id/alarmSoundText"
+            tools:layout_editor_absoluteX="-30dp" />
+
+        <TextView
+            android:id="@+id/vibeEnableText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginBottom="20dp"
+            android:text="진동"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/view3"
+            app:layout_constraintEnd_toStartOf="@+id/vibrateSwitch"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alarmSoundText" />
+
+        <Switch
+            android:id="@+id/vibrateSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/view3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="#BDBDBD"
+            app:layout_constraintTop_toBottomOf="@+id/vibeEnableText"
+            tools:layout_editor_absoluteX="-30dp" />
+
+        <Button
+            android:id="@+id/alarmSoundSelectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="12dp"
+            android:text="Button"
+            app:layout_constraintBottom_toTopOf="@+id/view3"
+            app:layout_constraintEnd_toStartOf="@+id/vibrateSwitch"
+            app:layout_constraintStart_toEndOf="@+id/vibeEnableText"
+            app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        <Spinner
+            android:id="@+id/alarmTimerSpinner"
+            android:layout_width="299dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

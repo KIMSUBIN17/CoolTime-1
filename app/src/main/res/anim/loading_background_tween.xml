@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--xml이름 loading_background_fadeout바꾸기-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+<alpha
+    android:interpolator="@android:anim/linear_interpolator"
+    android:startOffset="2000"
+    android:fromAlpha="1"
+    android:toAlpha="0"
+    android:duration="200"></alpha>
+    <!--2초있다가 실행하는데 1에서 0으로 2초동안-->
+    </set>
